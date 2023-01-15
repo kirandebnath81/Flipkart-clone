@@ -1,0 +1,182 @@
+{
+  "clothes": [
+    {
+      "title": "Blue Ripped Jeans",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/men-jeans-1.jpg?alt=media&token=202fe1f4-4c6d-4653-96c2-b7c479fcfaea",
+      "brand": "American Eagle",
+      "gender": "men",
+      "category": "pants",
+      "amount": "5490",
+      "discount": 50,
+      "sizes": ["M", "L"],
+      "id": "11"
+    },
+    {
+      "title": "Grey Cropped Jeans",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/men-jeans-2.jpg?alt=media&token=6e4df4f0-8f89-4032-bccb-439464c6a0df",
+      "brand": "American Eagle",
+      "gender": "men",
+      "category": "pants",
+      "amount": "4840",
+      "discount": 55,
+      "sizes": ["M", "L", "Xl"],
+      "id": "12"
+    },
+    {
+      "title": "Blue Distressed Jeans",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/women-jeans-1.jpg?alt=media&token=3d9c5257-6ef7-4bef-a99b-014f98245fab",
+      "brand": "American Eagle",
+      "gender": "women",
+      "category": "pants",
+      "amount": "6990",
+      "discount": 50,
+      "sizes": ["S", "L", "M", "Xl"],
+      "id": "13"
+    },
+    {
+      "title": "Blue Skinny Jeans",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/women-jeans-2.jpg?alt=media&token=c6c3693c-22ac-4a14-b337-3fb40073bf1b",
+      "brand": "American Eagle",
+      "gender": "women",
+      "category": "pants",
+      "amount": "3850",
+      "sizes": ["S", "M", "L"],
+      "discount": 30,
+      "id": "14"
+    },
+
+    {
+      "title": "Grey Hoodie",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/men-hoodie-1.png?alt=media&token=d28b2077-abc6-4206-81ad-601911333240",
+      "brand": "Hollister",
+      "gender": "men",
+      "category": "hoodie",
+      "amount": "4540",
+      "sizes": ["M", "L"],
+      "discount": 50,
+      "id": "15"
+    },
+    {
+      "title": "Plain Hoodie",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/men-hoddie-2.png?alt=media&token=a26225f8-e8ed-4251-8207-a42962bd5b28",
+      "brand": "Hollister",
+      "gender": "men",
+      "category": "hoodie",
+      "amount": "4800",
+      "discount": 40,
+      "sizes": ["M", "L", "XL"],
+      "id": "16"
+    },
+    {
+      "title": "Pink Hoodie",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/women-hoddie-2.jpg?alt=media&token=31e7c98e-7514-420b-ab47-e6a9566ae002",
+      "brand": "Hollister",
+      "gender": "women",
+      "category": "hoodie",
+      "amount": "5590",
+      "discount": 55,
+      "sizes": ["S", "M", "L"],
+      "id": "17"
+    },
+    {
+      "title": "White Hoodie",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/women-hoddie-1.jpg?alt=media&token=c928dc9a-f53c-4aa6-9b86-e91ea0f3f999",
+      "brand": "Hollister",
+      "gender": "women",
+      "category": "hoodie",
+      "amount": "4850",
+      "discount": 40,
+      "sizes": ["M", "L", "XL"],
+      "id": "18"
+    },
+    {
+      "title": "Plain Brown t-shirt",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/men-tshirt.jpg?alt=media&token=fd8cd2f4-5dd9-4538-b77d-4ce153889ee1",
+      "brand": "Zara",
+      "gender": "men",
+      "category": "t-shirt",
+      "amount": "1800",
+      "discount": 20,
+      "sizes": ["S", "M"],
+      "id": "19"
+    },
+    {
+      "title": "Light Blue Sweatshirt",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/men-sweatshirt.png?alt=media&token=2c2f9422-7b35-4fe3-beb5-15602412fca2",
+      "brand": "Zara",
+      "gender": "men",
+      "category": "t-shirt",
+      "amount": "3250",
+      "discount": 40,
+      "sizes": ["L", "XL"],
+      "id": "20"
+    },
+    {
+      "title": "Light Pink t-shirt",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/women-shirt-1.jpg?alt=media&token=e919e49f-7ed2-4c6b-8b1a-21d4dae3156e",
+      "brand": "Zara",
+      "gender": "women",
+      "category": "t-shirt",
+      "amount": "2750",
+      "discount": 40,
+      "sizes": ["M", "L"],
+      "id": "21"
+    },
+    {
+      "title": "White Check Shirt",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/women-shirt-2.jpg?alt=media&token=c351a8a8-f274-44e3-af34-6bfdf108fd62",
+      "brand": "Zara",
+      "gender": "women",
+      "category": "t-shirt",
+      "amount": "3590",
+      "discount": 35,
+      "sizes": ["S", "M", "L"],
+      "id": "22"
+    },
+
+    {
+      "title": "Flounced Jersey Dress",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/girl-dress-1.jpg?alt=media&token=b81af0e6-60bb-4ff1-91e4-d3062ecded3a",
+      "brand": "H&M",
+      "gender": "babygirls",
+      "category": "Outfit",
+      "amount": "3200",
+      "discount": 25,
+      "sizes": ["3-4 Years"],
+      "id": "23"
+    },
+    {
+      "title": "Frock Dress",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/jersey-dress.jpg?alt=media&token=bb6babd3-cb17-48d4-ae10-9a2c5c6c9e4b",
+      "brand": "H&M",
+      "gender": "babygirls",
+      "category": "Outfit",
+      "amount": "3490",
+      "discount": 45,
+      "sizes": ["3-4 Years"],
+      "id": "2401"
+    },
+    {
+      "title": "Jersey Set",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/jersey-set.jpg?alt=media&token=af5fe71e-b14a-4f05-85dc-30295ea22f4f",
+      "brand": "H&M",
+      "gender": "babyboys",
+      "category": "Outfit",
+      "amount": "3900",
+      "discount": 30,
+      "sizes": ["2-3 Years"],
+      "id": "25"
+    },
+    {
+      "title": "White Outfit",
+      "imgUrl": "https://firebasestorage.googleapis.com/v0/b/flipcart-clone-eabe9.appspot.com/o/boys-outfit.jpg?alt=media&token=a357c498-fba0-44f8-a5f3-e08cf101c37f",
+      "brand": "H&M",
+      "gender": "babyboys",
+      "category": "Outfit",
+      "amount": "4250",
+      "discount": 40,
+      "sizes": ["2-3 Years"],
+      "id": "26"
+    }
+  ]
+}
