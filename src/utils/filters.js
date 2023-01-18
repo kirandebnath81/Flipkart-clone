@@ -42,6 +42,7 @@ export const brandFiltered = (updatedInput, data, sortType) => {
   if (selectedBrands.length === 0) {
     return getSortedProducts(sortType, data);
   }
+
   const newProducts = data.filter((product) =>
     selectedBrands.find((brand) => brand === standardName(product.brand))
   );

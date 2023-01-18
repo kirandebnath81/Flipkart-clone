@@ -72,6 +72,7 @@ const Products = () => {
     let updatedSizeInput = sizeInput;
     let updatedBrandInput = brandInput;
     let updatedGenderInput = genderInput;
+
     if (type === "size") {
       updatedSizeInput = { ...sizeInput, [name]: checked };
       setSizeInput(updatedSizeInput);
@@ -82,22 +83,41 @@ const Products = () => {
       updatedGenderInput = { ...genderInput, [name]: checked };
       setGenderInput(updatedGenderInput);
     }
+
     const sizeFilterdData = sizeFiltered(
       updatedSizeInput,
       products.clothes,
       sortType
     );
+
     const brandFilteredData = brandFiltered(
       updatedBrandInput,
       sizeFilterdData,
       sortType
     );
+
     const genderFilterdData = genderFiltered(
       updatedGenderInput,
       brandFilteredData,
       sortType
     );
+
     setProductsData(genderFilterdData);
+  };
+
+  // sort products
+  const sortHandler = (type) => {
+    const sortedProducts = getSortedProducts(type, productsData);
+    setProductsData(sortedProducts);
+    setSortType(type);
+  };
+
+  //clear all filters
+  const clearFilters = () => {
+    setSizeInput(defaultSizeInput);
+    setBrandInput(defaultBrandInput);
+    setGenderInput(defaultGenderInput);
+    setProductsData(getSortedProducts(sortType, products.clothes));
   };
 
   //get filters header
@@ -121,28 +141,6 @@ const Products = () => {
         )}
       </div>
     );
-  };
-
-  //clear all filters
-  const clearFilters = () => {
-    setSizeInput(defaultSizeInput);
-    setBrandInput(defaultBrandInput);
-    setGenderInput(defaultBrandInput);
-
-    setProductsData(getSortedProducts(sortType, products.clothes));
-  };
-
-  // sort products
-  const sortHandler = (type) => {
-    if (type === "ascen") {
-      setSortType("ascen");
-    } else {
-      setSortType("descen");
-    }
-
-    const sortedProducts = getSortedProducts(type, productsData);
-
-    setProductsData(sortedProducts);
   };
 
   return (

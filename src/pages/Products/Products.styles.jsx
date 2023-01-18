@@ -30,6 +30,9 @@ export const FiltersHeader = styled.div`
       font-size: 1.2rem;
       color: var(--primary-color);
       cursor: pointer;
+      :hover {
+        font-weight: 600;
+      }
     }
   }
 `;
@@ -61,6 +64,10 @@ export const Filter = styled.div`
 
   label {
     margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  input {
+    cursor: pointer;
   }
 `;
 
