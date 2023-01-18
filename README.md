@@ -8,10 +8,13 @@ It's a Flipkart-clone product listing page
 
 ## Features-
 
-- Filters
+- Different Filters
+  - Size filters
+  - Brand filters
+  - Gender filters
 - Sort price
-- Dark mode
-- Fully Responsive
+  - Ascending
+  - Descending
 
 ## Build With -
 
